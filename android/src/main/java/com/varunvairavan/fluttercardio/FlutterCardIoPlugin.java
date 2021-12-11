@@ -20,7 +20,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar;
 /**
  * FlutterCardIoPlugin
  */
-public class FlutterCardIoPlugin implements MethodCallHandler, ActivityResultListener {
+public class FlutterCardIoPlugin implements MethodCallHandler, ActivityResultListener, FlutterPlugin {
     private static final int MY_SCAN_REQUEST_CODE = 100;
 
     private final PluginRegistry.Registrar registrar;
