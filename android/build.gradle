@@ -18,6 +18,8 @@ rootProject.allprojects {
 }
 apply plugin: 'com.android.library'
 android {
+    namespace "com.varunvairavan.fluttercardio"
+
     compileSdkVersion 28
 
     defaultConfig {
